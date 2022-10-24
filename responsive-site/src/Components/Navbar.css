@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: rgb(28, 27, 27);
+    /* border: 1px solid red; */
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-top: 1px;
+}
+
+.navbar-container {
+    background-color: rgb(28, 27, 27);
+    /* border: 1px solid green; */
+    margin: 15px;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.logo {
+    /* border: 1px solid orange; */
+    display: flex;
+
+    align-items: center;
+}
+
+
+
+.logo-content {
+    /* border: 1px solid red; */
+
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    /* border: 1px solid green; */
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    gap: 15%;
+    align-items: center;
+}
+
+nav ul li {
+    /* border: 1px solid red; */
+
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+nav ul li :hover {
+
+    color: aquamarine;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li i {
+
+    /* border: 1px solid red; */
+
+
+
+}
+
+@media(max-width : 560px) {
+
+    nav {
+        background-color: rgb(28, 27, 27);
+        /* border: 1px solid red; */
+        height: 9vh;
+    }
+
+
+    .navbar-container {
+        position: relative;
+        background-color: rgb(28, 27, 27);
+        /* border: 1px solid green; */
+        margin: 0;
+        height: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: */
+
+    }
+
+    nav ul {
+        position: absolute;
+        opacity: 0;
+
+        top: 59px;
+        /* border: 1px solid green; */
+        height: 89vh;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(28, 27, 27);
+        gap: 15%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-active {
+        position: absolute;
+        opacity: 1;
+
+        top: 59px;
+        /* border: 1px solid green; */
+        height: 89vh;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(28, 27, 27);
+        gap: 15%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .logo {
+        /* border: 1px solid blue; */
+        width: 95%;
+        margin: auto;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        padding: 3px;
+    }
+
+    .logo i {
+        color: white;
+    }
+
+
+
+    .logo-content {
+        /* border: 1px solid red; */
+
+    }
+
+
+
+}

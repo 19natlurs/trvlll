@@ -1,0 +1,47 @@
+.services {
+    background: url("./images/img-6.jpg") center center/cover no-repeat;
+    /* border: 1px solid red; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.products {
+    background-image: url("./images/img-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.sign-up {
+    background: url("./images/img-8.jpg") center center/cover no-repeat;
+    /* border: 1px solid red; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
